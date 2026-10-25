@@ -1,0 +1,12 @@
+{
+  "kb_name": "网络流行语释义库",
+  "description": "中文网络流行语词条释义库：每条含【词条】【释义】【例句】【详解】，覆盖 B 站/微博/抖音等平台的高频热词与梗。",
+  "emoji": "🗣️",
+  "source_url": "https://github.com/SCUNLP/Buzzword",
+  "source_license": "上游仓库 SCUNLP/Buzzword 未提供 LICENSE 文件（GitHub API license 字段为空）；该数据为 ACL 2025 论文《Can Large Language Models Understand Internet Buzzwords Through User-Generated Content》（arXiv:2505.15071）的配套研究数据集，未声明开放许可。按研究／自用用途处理，对外再分发或商用前请先咨询原作者并引用论文。",
+  "language": "zh-CN",
+  "num_chunks": 1219,
+  "built_at": "2026-10-26T02:59:32+08:00",
+  "builder": "corpus-cheer",
+  "notes": "数据文件 data.py（1183 个词条，下载时 5,214,058 字节）全量使用，未抽样。仅取上游 definition（释义）、examples（例句）、ground_truth（详解）三个字段；不使用 *_KEY（6 个模型生成的释义，含明显事实错误）与 *_score（模型互评）。仅 49 个词条带例句，其余条目省略【例句】行。清洗：去零宽/控制字符、压缩空白、把上游用裸尖括号写的书名（如 <长河浪花集>）规范为《长河浪花集》，避免被误判为 HTML；超长词条（>900 字符）按句末标点拆成多片，片首重复【词条】X（续），共 28 个词条被拆分。局限：释义为上游研究数据集标注/整理文本，个别条目可能有时效性偏差；同义词条（如“粉切黑/粉红切开都是黑”）各自成条，未合并；上游未提供 LICENSE，许可情况见 source_license。"
+}

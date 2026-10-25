@@ -1,0 +1,12 @@
+{
+  "kb_name": "网梗对话风格库",
+  "description": "抖音/小红书/B站评论区的网梗对话风格语料，学习「用户抛梗—回复接梗」的中文互联网语气。",
+  "emoji": "💬",
+  "source_url": "https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k",
+  "source_license": "见上游 HF 数据集页说明 / 仅限自用",
+  "language": "zh-CN",
+  "num_chunks": 1804,
+  "built_at": "2026-10-26T03:01:12+08:00",
+  "builder": "corpus-meme-bar",
+  "notes": "数据源 GaryYang123/zh-meme-sft-8k（train.jsonl 7377 条 + validation.jsonl 868 条，共 8245 组对话）。清洗后保留 7228 组：去掉 URL/联系方式/广告、纯符号、空串、过长且带条列结构的通用 AI 式回答（>=150 字或含「建议/推荐/1）…」的书面回答）、重复对。按 18 个粗粒度主题（职场/校园/恋爱/吃喝/游戏/追星/网络/宠物/健康/日常/情绪/运动/音影/社交/玩梗/数码等）分桶，桶内每 4–6 组合并为 1 条 chunk，同一 chunk 内语境相近；原文语气与口语（含 emoji）原样保留，不做书面化改写。已知局限：源数据混有少量通用问答，已按长度+句式启发式过滤，可能残留少量非梗回答；validation 集与 train 集风格略有差异，未做重新划分。"
+}

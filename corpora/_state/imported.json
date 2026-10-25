@@ -1,0 +1,57 @@
+{
+  "01_cheer_terms": {
+    "kb_id": "086cb992-5922-4247-b92f-601fa14961a6",
+    "kb_name": "网络流行语释义库",
+    "source_url": "https://github.com/SCUNLP/Buzzword",
+    "source_license": "上游仓库 SCUNLP/Buzzword 未提供 LICENSE 文件（GitHub API license 字段为空）；该数据为 ACL 2025 论文《Can Large Language Models Understand Internet Buzzwords Through User-Generated Content》（arXiv:2505.15071）的配套研究数据集，未声明开放许可。按研究／自用用途处理，对外再分发或商用前请先咨询原作者并引用论文。",
+    "num_chunks": 1219,
+    "num_docs": 2,
+    "elapsed_seconds": 78.1,
+    "completed_at": "2026-10-26T03:10:49+08:00",
+    "sha256": "d6be51b1b1900bfb44e494714788d76b46791867a4fc2d6dee421ced08b2ab78"
+  },
+  "02_meme_style": {
+    "kb_id": "960ba5a8-e9cd-43f1-b43d-9b8d6906102e",
+    "kb_name": "网梗对话风格库",
+    "source_url": "https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k",
+    "source_license": "见上游 HF 数据集页说明 / 仅限自用",
+    "num_chunks": 1804,
+    "num_docs": 3,
+    "elapsed_seconds": 72.1,
+    "completed_at": "2026-10-26T03:12:03+08:00",
+    "sha256": "3a8e42866f1d2cd1203643013df8f2b6e292c15777c9e21f5e9b6a8df914218f"
+  },
+  "03_ruozhiba": {
+    "kb_id": "81515470-6009-4242-9047-4fedbed7740f",
+    "kb_name": "弱智吧语料库",
+    "source_url": "https://huggingface.co/datasets/kirp/ruozhiba-raw ; https://huggingface.co/datasets/LooksJuicy/ruozhiba",
+    "source_license": "贴吧用户原创内容（公开抓取数据集）/ 仅限自用；避免商用与原文转载",
+    "num_chunks": 1320,
+    "num_docs": 2,
+    "elapsed_seconds": 57.2,
+    "completed_at": "2026-10-26T03:02:47+08:00",
+    "sha256": "417a54cfd64d43680bf2ff85a0c16ee2cab27893331d5bc555585df3b6bc06ac"
+  },
+  "04_vbar": {
+    "kb_id": "82f41f12-3d5f-42e8-9cb5-89039580a58c",
+    "kb_name": "V吧黑话库",
+    "source_url": "https://www.zhihu.com/question/434737537/answer/1641781496",
+    "source_license": "知乎回答与萌娘百科内容版权归原作者/站点所有，萌娘百科内容不可商用；本库仅供自用学习",
+    "num_chunks": 120,
+    "num_docs": 1,
+    "elapsed_seconds": 12.0,
+    "completed_at": "2026-10-26T03:19:55+08:00",
+    "sha256": "c7eb5b19cd69561d7fb74c0274329b85c36af5de0cedccd9ec4985fce2608791"
+  },
+  "05_hell": {
+    "kb_id": "355b8236-8dc9-47d5-b248-059334f241b6",
+    "kb_name": "地狱笑话库",
+    "source_url": "https://www.sohu.com/a/848380066_100133615",
+    "source_license": "各来源页面版权归原作者/站点所有（煎蛋、搜狐、知乎、Wikipedia）；duanzi.json 为公开 GitHub 数据集；本库仅供自用学习，不商用",
+    "num_chunks": 81,
+    "num_docs": 1,
+    "elapsed_seconds": 6.0,
+    "completed_at": "2026-10-26T03:20:01+08:00",
+    "sha256": "79f06ad27bd16a86a584b97a6e7138dd03caba55c01012b03d54697f1283208f"
+  }
+}

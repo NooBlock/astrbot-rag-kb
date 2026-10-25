@@ -1,0 +1,8 @@
+# Python cache / build artifacts
+__pycache__/
+*.pyc
+.venv/
+
+# Downloaded raw data is not published (size + third-party copyright)
+corpora/*/raw/
+**/raw/

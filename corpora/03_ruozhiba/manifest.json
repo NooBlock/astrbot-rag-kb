@@ -1,0 +1,12 @@
+{
+  "kb_name": "弱智吧语料库",
+  "description": "百度贴吧「弱智吧」风格的语料：无厘头神提问 + 一本正经的歪解，学会用反逻辑的方式抖机灵。",
+  "emoji": "🧠",
+  "source_url": "https://huggingface.co/datasets/kirp/ruozhiba-raw ; https://huggingface.co/datasets/LooksJuicy/ruozhiba",
+  "source_license": "贴吧用户原创内容（公开抓取数据集）/ 仅限自用；避免商用与原文转载",
+  "language": "zh-CN",
+  "num_chunks": 1320,
+  "built_at": "2026-10-26T03:00:52+08:00",
+  "builder": "corpus-meme-bar",
+  "notes": "数据源：① HF kirp/ruozhiba-raw 的 wisdomBar_raw.csv（弱智吧原帖 92509 条，仅标题无回答）；② HF LooksJuicy/ruozhiba 的 ruozhiba_qa.json（1496 组无厘头提问+一本正经解释）；③ ModelScope AI-ModelScope/ruozhiba 探测 404 不可用。标题清洗后可用 85354 条，固定种子随机抽样 4800 条（seed=20261026），按 12 个主题分桶后每 4–6 条合并，生成 962 条「弱智吧神提问」chunk；「杂谈」桶再按王老汉/小明/食人族/社会新闻体等固定角色细分。QA 清洗后 1434 组，按主题每 3–6 组合并，生成 358 条「弱智吧问答」chunk。清洗：去 HTML/URL/联系方式/广告/吧务签到等元帖、过短(<8字)过长(>60字)标题、非中文占比过高(火星文/乱码)、过长解释性答案(>180字)、完全重复项；不改写原文。已知局限：原帖标题是正文，多数没有回答，标题组 chunk 只呈现提问风格；QA 子集来自另一数据源，答案为「认真解释无厘头问题」的冷面幽默，与原帖标题语气略有差异。"
+}
