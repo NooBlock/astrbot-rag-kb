@@ -38,7 +38,7 @@
 
 ```bash
 # 1) 获取语料并校验格式
-git clone https://github.com/<YOUR_ACCOUNT>/astrbot-rag-kb.git
+git clone https://github.com/NooBlock/astrbot-rag-kb.git
 cd astrbot-rag-kb
 python tools/validate_corpus.py --all corpora
 
