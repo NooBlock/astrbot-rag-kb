@@ -38,7 +38,7 @@
 
 ```bash
 # 1) 获取语料并校验格式
-git clone https://github.com/NooBlock/astrbot-rag-kb.git
+git clone https://github.com/<YOUR_ACCOUNT>/astrbot-rag-kb.git
 cd astrbot-rag-kb
 python tools/validate_corpus.py --all corpora
 
@@ -132,7 +132,8 @@ astrbot-rag-kb/
 | [docs/数据字典.md](docs/数据字典.md) | `chunks.jsonl` / `manifest.json` 字段与校验规则 |
 
 > **这次建设的完整过程**（为什么分层、抓取与清洗踩了哪些坑、导入时怎么处理重复 chunk）记录在同批发布的
-> **`astrbot-worklog`** 仓库的 `2026-10-26.md` 里，适合想了解语料工程决策过程的人。
+> **[`astrbot-worklog`](https://github.com/NooBlock/astrbot-worklog)** 仓库的 `2026-10-26.md` 里，
+> 适合想了解语料工程决策过程的人。
 
 ## 致谢
 
